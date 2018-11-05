@@ -6,6 +6,9 @@ app = Flask(__name__)
 def home():
     return "hello"
 
+@app.route('/home')
+def home2():
+    return 'hello2'
 
-    if __name__ == "__main__":
-        app.run
+if __name__ == "__main__":
+        app.run()
