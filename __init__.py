@@ -11,4 +11,5 @@ def home2():
     return 'hello2'
 
 if __name__ == "__main__":
-        app.run()
+        print("Hello world")
+        #app.run()
